@@ -3,11 +3,11 @@
     margin: 0;
 } */
 
-body {
+.grid-container {
     margin: 0;
     font-family: Arial, sans-serif;
     display: grid;
-    grid-template-columns: 60px 20px 1fr 200px;
+    grid-template-columns: 0.1fr 0.8fr 0.1fr 0.1fr 0.1fr;
     grid-gap: 20px;
     padding: 20px;
     background-color: #f8f8f8;
@@ -18,7 +18,7 @@ body {
  .column1 {
     display: grid;
     grid-template-rows: 0.1fr;
-    background: white;
+    background: rgb(139, 44, 44);
     text-align: center;
     padding: 16px, 16px, 24px, 16px;
     justify-content: space-between;
@@ -26,12 +26,13 @@ body {
     height: Fixed 1,024px;
     padding: 0px;
     justify-content: space-between;
+    min-height: 100vh;
 
     }
 
     .fa-icon {
         font-size: 24px;
-        color: #fff;
+        color: black;
         margin-bottom: 10px;
         cursor: pointer;
     }
@@ -41,7 +42,7 @@ body {
 
 .column2 {
             display: grid;
-            grid-template-rows: 0.8fr 0.8fr; /* Rows occupy 80% of the available height */
+            grid-template-rows: 1fr 1fr; /* Rows occupy 80% of the available height */
             padding: 5px;
             box-sizing: border-box;
             text-align: left;
@@ -354,6 +355,7 @@ body {
     border-radius: 15px;
     margin-right: 10px;
     cursor: pointer;
+    font-size: 10px;
 }
 
 .some-button{
@@ -363,6 +365,7 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 10px;
 }
 
 
