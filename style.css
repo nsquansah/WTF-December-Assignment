@@ -123,11 +123,13 @@ body {
     background-color: #a7f1c6;
     color: #fff;
     color: green;
+    margin-right: 5px;
+    padding: 5px;
 }
 
 .suggestion-red {
-    background-color: #e74c3c;
-    color: #fff;
+    background-color: rgb(244, 221, 178);
+    color: brown;
 }
 
 .column3 {
@@ -204,3 +206,8 @@ body {
     margin-bottom: 25px;
 }
 
+.fa-phone{
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
