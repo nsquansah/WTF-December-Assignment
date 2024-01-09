@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #3498db;
+    background-color: white;
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -21,8 +21,8 @@ body {
 
 .fa-icon {
     font-size: 24px;
-    color: #fff;
-    margin-bottom: 10px;
+    color: black;
+    margin-bottom: 20px;
     cursor: pointer;
 }
 
@@ -65,7 +65,7 @@ body {
 
 .card {
     display: flex;
-    padding: 15px;
+    padding: 10px;
     background-color: #fff;
     cursor: pointer;
     border: none;
@@ -83,10 +83,10 @@ body {
 }
 
 .profile-picture {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 8px;
-    margin-right: 15px;
+    margin-right: 10px;
     background-color: #3498db; /* Placeholder color */
 }
 
@@ -102,8 +102,9 @@ body {
 }
 
 .recent-message {
-    font-size: 12px;
+    font-size: 10px;
     margin-bottom: 5px;
+    color: gray;
 }
 
 .suggestions {
@@ -119,8 +120,9 @@ body {
 }
 
 .suggestion-green {
-    background-color: #27ae60;
+    background-color: #a7f1c6;
     color: #fff;
+    color: green;
 }
 
 .suggestion-red {
@@ -193,3 +195,12 @@ body {
     border: 1px solid #ddd;
     border-radius: 5px;
 }
+
+
+.header2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
